@@ -191,7 +191,7 @@ if "messages" not in st.session_state:
 # Sidebar information
 with st.sidebar:
     st.subheader("🤖 Chatbot Information")
-    st.write("This chatbot provides intelligent responses by either using an AI assistant or fetching data from research tools such as Arxiv and Wikipedia and vector store created by given URLS")
+    st.write("This chatbot provides intelligent responses by either using an AI assistant or fetching data from research tools such as Arxiv and Wikipedia and vector store created on given URLS")
     st.write("Sources used will be shown next to responses, enabling a clear understanding of where each answer originates from.")
 
 
