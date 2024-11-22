@@ -11,3 +11,5 @@ chromadb
 arxiv
 wikipedia
 langchain_groq
+
+faiss-cpu
