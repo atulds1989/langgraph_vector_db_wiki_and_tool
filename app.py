@@ -27,7 +27,7 @@ urls = [
 
 
 doc_splits = get_docs(urls=urls)
-astra_vector_store, astra_vector_index, retriever = get_vector_db(doc_splits=doc_splits)
+faiss_vector_store, faiss_vector_index, retriever = get_vector_db(doc_splits=doc_splits)
 
 # print(retriever.invoke("What is agent",ConsistencyLevel="LOCAL_ONE"))
 
